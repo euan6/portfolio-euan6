@@ -55,14 +55,21 @@ header .infoText .scroll {
     transition: all 0.5s;
 }
 
+header .infoText .scroll i {
+    color: #fff;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+}
+
 header .infoText .scroll:hover {
     opacity: 0.7;
 }
 
 header .infoText .scroll::before {
     position: absolute;
-    top: -15px;
-    left: -18px;
+    top: -14px;
+    left: -16px;
     z-index: -1;
     content: '';
     width: 44px;
@@ -70,19 +77,6 @@ header .infoText .scroll::before {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
     border-radius: 100%;
     animation: pulse 3s infinite;
-}
-
-@keyframes pulse {
-    0%, 100% {
-        opacity: 0;
-    }
-    15%, 45% {
-        opacity: 1;
-    }
-    60% {
-        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
-        opacity: 0;
-    }
 }
 
 #about, #features {
@@ -187,6 +181,7 @@ header .infoText .scroll::before {
 }
 
 .scrollTop {
+    display: none;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -219,5 +214,18 @@ header .infoText .scroll::before {
     #about .card {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0;
+    }
+    15%, 45% {
+        opacity: 1;
+    }
+    60% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+        opacity: 0;
     }
 }
