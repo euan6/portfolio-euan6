@@ -9,6 +9,18 @@ html {
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+    width: 0;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
 body {
     font-size: 14px;
 }
