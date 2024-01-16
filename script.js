@@ -87,4 +87,4 @@ window.addEventListener('scroll', function() {
     } else {
         scrollTopButton.style.display = 'none';
     }
-})
+});
