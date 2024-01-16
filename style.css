@@ -133,6 +133,10 @@ header .location {
     box-shadow: none;
 }
 
+#about .header i, #features .header i {
+    padding-right: 10px;
+}
+
 #about .card, #features .card {
     background-color: #3e426b;
     padding: 30px;
