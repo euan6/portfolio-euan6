@@ -28,7 +28,7 @@ body {
 header {
     width: 100%;
     height: 100vh;
-    background-color: #2b2f4b;
+    background-color: #393e65;
     color: #fff;
 }
 
@@ -93,7 +93,7 @@ header .infoText .scroll::before {
 }
 
 #about, #features {
-    background-color: #2b2f4b;
+    background-color: #393e65;
     padding: 40px;
 }
 
@@ -114,6 +114,7 @@ header .infoText .scroll::before {
     text-decoration: none;
     font-size: 1.3rem;
     color: #fff;
+    background-color: #3e426b;
     border: 1px solid transparent;
     padding: 10px 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -128,6 +129,7 @@ header .infoText .scroll::before {
 }
 
 #about .card, #features .card {
+    background-color: #3e426b;
     padding: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     border-radius: 20px;
@@ -152,7 +154,7 @@ header .infoText .scroll::before {
 
 #about .card .info h1, #features .card .info h1 {
     margin-bottom: 20px;
-    color: #fff;
+    color: #ccc;
     font-size: 1.7rem;
     font-weight: bold;
 }
