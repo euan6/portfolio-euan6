@@ -64,10 +64,10 @@ particlesJS("particles", {
         modes: {
             repulse: {
                 distance: 100,
-                duration: 0.4
+                duration: 0.5
             },
             push: {
-                particles_nb: 4
+                particles_nb: 3
             }
         }
     },
