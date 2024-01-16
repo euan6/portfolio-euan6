@@ -92,6 +92,11 @@ header .infoText .scroll::before {
     animation: pulse 3s infinite;
 }
 
+header .location {
+    display: flex;
+    gap: 0.5rem;
+}
+
 #about, #features {
     background-color: #393e65;
     padding: 40px;
