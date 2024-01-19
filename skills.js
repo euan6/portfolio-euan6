@@ -1,3 +1,4 @@
+// skills data for individual skills
 const skills = [
     {
         num: 1,
@@ -31,6 +32,7 @@ const skills = [
     }
 ];
 
+// creates a div with an icon, name and description
 function skillsDiv(name, description, icon) {
     // create div and add class card
     var cardDiv = document.createElement("div");
@@ -66,10 +68,16 @@ function skillsDiv(name, description, icon) {
     }
 }
 
+// adds the skills divs when the page is loaded
 window.addEventListener("load", function() {
+    // adds the responsive web design div
     skillsDiv(skills[0].name, skills[0].description, skills[0].icon);
+    // adds the database management div
     skillsDiv(skills[1].name, skills[1].description, skills[1].icon);
+    // adds the programming languages div
     skillsDiv(skills[2].name, skills[2].description, skills[2].icon);
+    // adds the java oop and guis div
     skillsDiv(skills[3].name, skills[3].description, skills[3].icon);
+    // adds the data structures & algorithms div
     skillsDiv(skills[4].name, skills[4].description, skills[4].icon);
 });
