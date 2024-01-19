@@ -174,14 +174,14 @@ header .location {
     line-height: 1.8rem;
 }
 
-#features .featureCards {
+#features #featureCards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
 }
 
-#features .featureCards .card {
+#features #featureCards .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +189,7 @@ header .location {
     min-width: 350px;
 }
 
-#features .featureCards .card .info i {
+#features #featureCards .card .info i {
     color: #fff;
     font-size: 4rem;
     width: 100%;
@@ -197,12 +197,12 @@ header .location {
     margin-bottom: 1.4rem;
 }
 
-#features .featureCards .card .info h1 {
+#features #featureCards .card .info h1 {
     text-align: center;
     font-size: 1.4rem;
 }
 
-#features .featureCards .card .info p {
+#features #featureCards .card .info p {
     text-align: center;
     font-size: 1.1rem
 }
