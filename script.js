@@ -1,3 +1,4 @@
+// code for background particles
 particlesJS("particles", {
     particles: {
         number: {
@@ -74,12 +75,14 @@ particlesJS("particles", {
     retina_detect: true
 });
 
+// scrolls to the top of the page
 function scrollToTop() {
     window.scrollTo({
         top: 0,
     });
 }
 
+// displays the scroll to top button when pageYOffset is > 200
 window.addEventListener('scroll', function() {
     var scrollTopButton = document.querySelector('.scrollTop');
     if (this.window.pageYOffset > 200) {
