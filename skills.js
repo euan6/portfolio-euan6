@@ -62,7 +62,7 @@ function skillsDiv(name, description, icon) {
     cardDiv.appendChild(infoDiv);
 
     // add the div to the featureCards id
-    var targetElement = document.querySelector("#featureCards");
+    var targetElement = document.querySelector("#skillCards");
     if (targetElement) {
         targetElement.appendChild(cardDiv);
     }
