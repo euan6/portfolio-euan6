@@ -10,6 +10,7 @@
 </head>
 <body>
 
+    <!-- header with particles background -->
     <header>
         <div id="particles"></div>
             <div class="infoText">
@@ -23,6 +24,7 @@
             </div>
     </header>
 
+    <!-- about section -->
     <section id="about">
         <div class="header">
             <h1><i class="fa-solid fa-address-card"></i>About Me</h1>
@@ -40,69 +42,24 @@
         </div>
     </section>
 
-    <section id="features">
+    <!-- skills section -->
+    <section id="skills">
         <div class="header">
             <h1><i class="fa-solid fa-list"></i>Skills</h1>
             <a href="#">See More</a>
         </div>
-        <div class="featureCards">
-            <div class="card">
-                <div class="info">
-                    <i class="fa-solid fa-laptop"></i>
-                    <h1>Responsive Web Design</h1>
-                    <p>I have lots of projects in web development 
-                    with many being just practice webpages, however I also have created
-                    entire websites as part of my education's coursework</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="info">
-                    <i class="fa-solid fa-database"></i>
-                    <h1>Database Management</h1>
-                    <p>Having worked with databases for a long time, I am confident
-                    in querying and manipulating databases whilst working independently
-                    or on a server</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="info">
-                    <i class="fa-solid fa-code"></i>
-                    <h1>Programming Languages</h1>
-                    <p>With years of experience in software development, I have used
-                    and grew confident with many different languages, also using many
-                    styles of programming</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="info">
-                    <i class="fa-solid fa-network-wired"></i>
-                    <h1>Java OOP & GUI's</h1>
-                    <p>Since starting University, I have used Java as a main language
-                    for several classes. This has helped me to learn how to use OOP and
-                    create GUI's</p>
-                </div>
-            </div>  
-
-            <div class="card">
-                <div class="info">
-                    <i class="fa-solid fa-folder-tree"></i>
-                    <h1>Data Structures and Algorithms</h1>
-                    <p>I have experimented with many different data structures
-                    as well as algorithms in a few languages to develop a firm
-                    understanding of them</p>
-                </div>
-            </div>  
-        </div>
+        <!-- skills loaded using event listener -->
+        <div id="skillCards"></div>
     </section>
 
+    <!-- scroll to top button -->
     <button class="scrollTop" onclick="scrollToTop()">
         <i class="fa-solid fa-caret-up"></i>
     </button>
 
+    <!-- javascript links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="skills.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
