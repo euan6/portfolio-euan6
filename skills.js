@@ -59,9 +59,17 @@ function skillsDiv(name, description, icon) {
     infoDiv.appendChild(p);
     cardDiv.appendChild(infoDiv);
 
-    // add the div to the skillsArea id
-    var targetElement = document.querySelector("#skillsArea");
+    // add the div to the featureCards id
+    var targetElement = document.querySelector("#featureCards");
     if (targetElement) {
         targetElement.appendChild(cardDiv);
     }
 }
+
+window.addEventListener("load", function() {
+    skillsDiv(skills[0].name, skills[0].description, skills[0].icon);
+    skillsDiv(skills[1].name, skills[1].description, skills[1].icon);
+    skillsDiv(skills[2].name, skills[2].description, skills[2].icon);
+    skillsDiv(skills[3].name, skills[3].description, skills[3].icon);
+    skillsDiv(skills[4].name, skills[4].description, skills[4].icon);
+});
