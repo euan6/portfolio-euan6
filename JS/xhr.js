@@ -6,8 +6,6 @@ window.addEventListener('DOMContentLoaded', function() {
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
             navbarPlaceholder.innerHTML = xhr.responseText;
-            // calls function which adds active class to current page
-            highlightCurrentPage();
         }
     };
     xhr.send();

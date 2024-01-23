@@ -91,16 +91,3 @@ window.addEventListener('scroll', function() {
         scrollTopButton.style.display = 'none';
     }
 });
-
-// checks every link class for the filename and if it is current file, add active class to it
-function highlightCurrentPage() {
-    var currentPageUrl = window.location.href;
-    var navbarLinks = document.querySelectorAll(".link");
-    for (var i = 0; i < navbarLinks.length; i++) {
-        var link = navbarLinks[i];
-        var linkHref = link.getAttribute("href");
-        if (currentPageUrl.endsWith(linkHref)) {
-            link.classList.add("active");
-        }
-    }
-}
