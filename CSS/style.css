@@ -281,6 +281,10 @@ nav li a:hover, .active {
     font-size: 1.1rem
 }
 
+#skills a {
+    text-decoration: none;
+}
+
 /* Scroll Button Styles */
 .scrollTop {
     display: none;
