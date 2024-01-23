@@ -170,13 +170,13 @@ nav li a:hover, .active {
     margin: auto;
 }
 
-/* About and Skills Styles */
+/* About, Skills and Main Styles */
 #about, #skills {
     background-color: #393e65;
     padding: 40px;
 }
 
-#about .header, #skills .header {
+#about .header, #skills .header, #main .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -189,7 +189,7 @@ nav li a:hover, .active {
     text-transform: capitalize;
 }
 
-#about .header a, #skills .header a {
+#about .header a, #skills .header a, #main .header a {
     text-decoration: none;
     font-size: 1.3rem;
     color: #fff;
@@ -202,16 +202,16 @@ nav li a:hover, .active {
     text-transform: capitalize;
 }
 
-#about .header a:hover, #skills .header a:hover {
+#about .header a:hover, #skills .header a:hover, #main .header a:hover {
     border-color: #fff;
     box-shadow: none;
 }
 
-#about .header i, #skills .header i {
+#about .header i, #skills .header i, #main .header i {
     padding-right: 10px;
 }
 
-#about .card, #skills .card {
+#about .card, #skills .card, #main .card {
     background-color: #3e426b;
     padding: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -223,26 +223,26 @@ nav li a:hover, .active {
     cursor: pointer;
 }
 
-#about .card:hover, #skills .card:hover {
+#about .card:hover, #skills .card:hover, #main .card:hover {
     border-color: #fff;
     box-shadow: none;
 }
 
-#about .card .info {
+#about .card .info, #main .card .info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-#about .card .info h1, #skills .card .info h1 {
+#about .card .info h1, #skills .card .info h1, #main .card h1 {
     margin-bottom: 20px;
-    color: #ccc;
+    color: #fff;
     font-size: 1.7rem;
     font-weight: bold;
 }
 
-#about .card .info p, #skills .card .info p {
+#about .card .info p, #skills .card .info p, #main .card p {
     color: #ccc;
     font-size: 1.1rem;
     line-height: 1.8rem;
@@ -283,6 +283,19 @@ nav li a:hover, .active {
 
 #skills a {
     text-decoration: none;
+}
+
+#main {
+    background-color: #393e65;
+    padding: 100px 40px 40px 40px;
+    min-height: 100vh;
+}
+
+#main .header h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
 }
 
 /* Scroll Button Styles */
