@@ -209,7 +209,7 @@ nav li a:hover, .active {
 
 #about .header i, #skills .header i, #main .header i {
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 #about .card, #skills .card, #main .card {
