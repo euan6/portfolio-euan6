@@ -184,9 +184,9 @@ nav li a:hover, .active {
 }
 
 #about .header h1, #skills .header h1 {
-    text-align: center;
     color: #fff;
     text-transform: capitalize;
+    font-size: 1.5rem;
 }
 
 #about .header a, #skills .header a, #main .header a {
@@ -208,7 +208,6 @@ nav li a:hover, .active {
 }
 
 #about .header i, #skills .header i, #main .header i {
-    padding-right: 10px;
     padding-left: 15px;
 }
 
