@@ -104,7 +104,7 @@ header .location {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #393e65;
+    background-color: #434770;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     box-sizing: border-box;
     top: 0;
@@ -209,6 +209,7 @@ nav li a:hover, .active {
 
 #about .header i, #skills .header i, #main .header i {
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 #about .card, #skills .card, #main .card {
@@ -248,14 +249,14 @@ nav li a:hover, .active {
     line-height: 1.8rem;
 }
 
-#skills #skillCards {
+#skills #skillCards, #skills #projectCards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
 }
 
-#skills #skillCards .card {
+#skills #skillCards .card, #skills #projectCards .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,7 +264,7 @@ nav li a:hover, .active {
     min-width: 350px;
 }
 
-#skills #skillCards .card .info i {
+#skills #skillCards .card .info i, #skills #projectCards .card .info i {
     color: #fff;
     font-size: 4rem;
     width: 100%;
@@ -271,12 +272,12 @@ nav li a:hover, .active {
     margin-bottom: 1.4rem;
 }
 
-#skills #skillCards .card .info h1 {
+#skills #skillCards .card .info h1, #skills #projectCards .card .info h1 {
     text-align: center;
     font-size: 1.4rem;
 }
 
-#skills #skillCards .card .info p {
+#skills #skillCards .card .info p, #skills #projectCards .card .info p {
     text-align: center;
     font-size: 1.1rem
 }
@@ -288,7 +289,6 @@ nav li a:hover, .active {
 #main {
     background-color: #393e65;
     padding: 100px 40px 40px 40px;
-    min-height: 100vh;
 }
 
 #main .header h1 {
