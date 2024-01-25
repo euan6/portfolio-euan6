@@ -23,6 +23,8 @@ html::-webkit-scrollbar-track {
 }
 
 body {
+    min-height: 100vh;
+    background-color: #393e65;
     font-size: 14px;
 }
 
@@ -170,7 +172,7 @@ nav li a:hover, .active {
     margin: auto;
 }
 
-/* About, Skills and Main Styles */
+/* About, Skills, Project and Main Styles */
 #about, #skills {
     background-color: #393e65;
     padding: 40px;
