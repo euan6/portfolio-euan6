@@ -279,8 +279,7 @@ nav li a:hover, .active {
 }
 
 #skills #skillCards .card .info p, #skills #projectCards .card .info p {
-    text-align: center;
-    font-size: 1.1rem
+    font-size: 1.1rem;
 }
 
 #skills a {
